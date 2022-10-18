@@ -2,8 +2,6 @@ import socket
 from threading import Thread
 import tkinter as Tk
 
-# nickname = input("Choose your nickname: ")
-
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 ip_address = '127.0.0.1'
